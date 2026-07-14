@@ -12,6 +12,7 @@ export class CheckoutPage {
   async fillDetails() {
     await this.page.fill(this.firstName, "Narmatha");
     await this.page.fill(this.lastName, "Test");
+    await this.page.waitForTimeout(1000);
     await this.page.fill(this9.postalCode, "600001");
   }
 
