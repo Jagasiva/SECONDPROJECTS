@@ -19,5 +19,10 @@ export class InventoryPage {
 
   async goToCart() {
     await this.page.click(this.cartIcon);
+    await this.page.waitForTimeout(1000);
+await this.page.waitForTimeout(1000);
+await this.page.waitForTimeout(1000);
+await this.page.waitForTimeout(1000);
+await this.page.waitForTimeout(1000);
   }
 }
